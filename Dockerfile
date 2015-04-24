@@ -8,4 +8,4 @@ RUN \
 EXPOSE 1080
 EXPOSE 1025
 
-ENTRYPOINT [ "mailcatcher", "--smtp-ip=0.0.0.0", "--http-ip=0.0.0.0", "--foreground" ]
+ENTRYPOINT [ "mailcatcher", "--ip=0.0.0.0", "--foreground" ]
