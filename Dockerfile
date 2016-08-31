@@ -1,6 +1,6 @@
 FROM ruby:2.1
 
-ENV MAILCATCHER_VERSION 0.6.1
+ENV MAILCATCHER_VERSION 0.6.5
 
 RUN \
   gem install mailcatcher --no-ri --no-rdoc --version ${MAILCATCHER_VERSION}
